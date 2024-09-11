@@ -2,8 +2,8 @@ from jnpr.junos import Device
 from jnpr.junos.utils.config import Config
 
 device= "10.20.1.1"
-user = "jcluser"
-password = "Juniper!1"
+user = "admin"
+password = "admin"
 
 dev = Device(host=device, user=user, password=password, gather_facts=False)
 dev.open()
